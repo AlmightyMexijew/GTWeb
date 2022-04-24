@@ -1,0 +1,16 @@
+.maincont {
+    display:flex;
+}
+.leftbar {
+    justify-self: left;
+    background-color: blue;
+    border-right:2px solid black;
+    height: 1000px;
+    max-height: fit-content;
+}
+.rightside {
+    justify-self: center;
+    background-color: green;
+    width: 100%;
+    height:auto;
+}

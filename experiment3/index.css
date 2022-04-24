@@ -1,0 +1,15 @@
+#hero {
+    background-color: olive;
+    color:#E6E645;
+}
+.herocont {
+    display:flex;
+    align-content: space-between;
+    border-radius: 2px solid black;
+    background-color: greenyellow;
+    color:inherit;
+    font-size:32pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:10px;
+    margin-right:10px;
+}
