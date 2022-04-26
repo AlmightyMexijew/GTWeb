@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    /*He does this to add padding and borders without adding to element width */
+    padding: 0;
+    margin: 0;
+    /* to get rid of default paddings*/
+}
+
+body {
+    font-family:sans-serif;
+    color:#333;
+    line-height:1.6;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li {
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    /* to get rid of ugly underline */
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    /* for spacing reasons */
+}
+
+img {
+    width: 100%;
+    /* so they don't bust out of containers */
+}
+
+/*navbar stuff*/
+
+.navbar {
+    background-color:#3181D6;
+    color:#93BFED;
+    height: 70px;
+    /* 2 contrasting colors and 70px tall to set height*/
+}
+
+.navbar ul {
+    display:flex;
+}
+
+.navbar a  {
+    color:whitesmoke;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px white solid;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow:auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/*Showcase*/
+
+.showcase {
+    height:400px;
+    background-color:#3181D6;
+    color:#9ECDFF;
+    position:relative;
+}
+
+.showcase h1 { 
+    font-size: 40px;
+}
+.showcase p {
+    margin:20px 0;
+}
+
+.card {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+/*util as seen around*/
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content:center;
+    align-items:center;
+}

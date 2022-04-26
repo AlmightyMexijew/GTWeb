@@ -10,16 +10,42 @@
     <!--Navbar: has div class"navbar". It's going to hold our logo(an h1) and nav. We will wrap it in a container too...so div "container". It'll also have a navtag and an ul for our details.-->
 
     <div class ="navbar">
-        <div class="container">
+        <div class="container flex">
             <h1 class="logo">Gershon Tepper</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </div>
+
+    <!--Showcase-->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Web Design</h1>
+                <p>From start to finish, a guiding hand in the design phase of the website.</p>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Request A Meeting</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="tel" name="number" placeholder="Your Number" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
     <script></script>
 </body>
