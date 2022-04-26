@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family:sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#333;
     line-height:1.6;
 }
@@ -81,7 +81,7 @@ img {
 /*Showcase*/
 
 .showcase {
-    height:400px;
+    height: 600px;
     background-color:#3181D6;
     color:#9ECDFF;
     position:relative;
@@ -102,6 +102,15 @@ img {
     margin: 10px;
 }
 
+.showcaseDesign {
+    padding-top: 10px;
+}
+
+.showcase-form {
+    position: relative;
+    top: 60px;
+    height: 190px;
+}
 /*util as seen around*/
 
 .grid {
